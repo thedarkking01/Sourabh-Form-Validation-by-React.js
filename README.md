@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#React Form with Validation
+This project demonstrates how to create a React form with client-side validation for required fields without using third-party libraries. It includes features to display error messages, disable the submission button until all fields are correctly filled, and show the submitted details on a new route after a successful submission. The form includes fields for First Name, Last Name, Username, E-mail, Password (with show/hide functionality), Phone Number (with country code and number), Country (dropdown), City (dropdown), PAN Number, and Aadhar Number.
+
+#Features
+1. Client-side Validation: Ensures that all required fields are filled correctly before allowing form submission.
+2. Error Messages: Displays error messages below each input field if the input is invalid or missing.
+3. Disable Submission: The submit button is disabled until all fields meet the validation criteria.
+4. Show/Hide Password: Allows users to toggle the visibility of the password field.
+5. Form Submission: On successful form submission, navigates to a new route and displays the submitted details.
+#Form Fields
+1. First Name: Text input field for the first name.
+2. Last Name: Text input field for the last name.
+3. Username: Text input field for the username.
+4. Email: Email input field with validation for proper email format.
+5. Password: Password input field with a toggle button to show or hide the password.
+6. Phone Number: Text input field for the phone number, including a country code.
+7. Country: Dropdown menu to select the country.
+8. City: Dropdown menu to select the city.
+9.PAN Number: Text input field for the PAN number.
